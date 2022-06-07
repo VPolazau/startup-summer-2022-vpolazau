@@ -1,0 +1,26 @@
+.row {
+    height: 20%;
+    background: #ffffff;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.repository-name {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #0064eb;
+    margin-left: 3%;
+}
+
+.repository-info {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-left: 3%;
+    word-wrap: break-word;
+}
