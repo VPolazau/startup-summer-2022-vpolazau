@@ -1,0 +1,36 @@
+@media screen and (max-width: 960px) {
+    div.repositories {
+        top: 40px;
+    }
+    .repositories.flex-body-item{
+      width: auto;
+      flex-grow: 1;
+  }
+}
+.repositories {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.number-repositories {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 5%;
+    font-size: 2.5rem;
+    margin-top: 3%;
+
+    color: #000000;
+}
+
+.repository-rows {
+    width: 86%;
+    height: 68%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+}
