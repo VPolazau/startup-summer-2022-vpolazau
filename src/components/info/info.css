@@ -1,0 +1,182 @@
+.info-panel {
+    width: 30%;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.div-photo {
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.photo {
+    height: 100%;
+    border-radius: 100%;
+}
+
+.name {
+    font-family: 'Noto Sans';
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 41px;
+    margin-left: 15%;
+}
+
+.user-name {
+    width: 98px;
+    height: 27px;
+
+    margin-top: 5%;
+    font-family: 'Noto Sans';
+    font-size: 1.5385rem;
+    text-decoration: none;
+    margin-left: 15%;
+
+    color: #0064eb;
+}
+
+.follow {
+    width: 90%;
+    height: auto;
+    margin-top: 13%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 15%;
+    word-wrap: break-word;
+}
+
+.flex-follow-item {
+    padding: 2px;
+}
+
+.followings {
+    width: 151.19px;
+
+    font-family: 'Noto Sans';
+    font-size: 1.4rem;
+    line-height: 25px;
+
+    color: #474645;
+}
+
+.icon-followings {
+    width: 24px;
+    height: 23px;
+}
+
+.followers {
+    width: 11rem;
+
+    font-family: 'Noto Sans';
+    font-size: 1.4rem;
+    line-height: 25px;
+
+    color: #474645;
+}
+
+.icon-followers {
+    width: 25px;
+    height: 26px;
+}
+
+@media screen and (max-width: 1145px) {
+    .followings {
+        font-size: 1rem;
+    }
+    .followers {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    div.info-panel {
+        top: 40px;
+    }
+    .info-panel.flex-body-item {
+        width: auto;
+        height: 25%;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .div-photo {
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .photo {
+        max-height: 100%;
+        border-radius: 100%;
+    }
+
+    .name {
+        flex-direction: column;
+        order: 1;
+        margin-top: 0%;
+        font-size: 1.5rem;
+        line-height: 41px;
+        margin-left: 0%;
+    }
+    
+    .user-name {
+        width: 98px;
+    
+        margin-top: 0%;
+        font-size: 1rem;
+        text-decoration: none;
+        margin-left: 0%;
+        text-align: center;
+        line-height: 41px;
+        color: #0064eb;
+    }
+    
+    .follow {
+        flex-basis: 40%;
+        line-height: 41px;
+        width: 10%;
+        height: auto;
+        margin-top: 0%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: 0%;
+    }
+
+    .icon-followers {
+        width: 6px;
+        height: 7px;
+    }
+
+    .icon-followings {
+        width: 6px;
+        height: 5px;
+    }
+
+    .followers {
+        width: 11rem;
+    
+        font-family: 'Noto Sans';
+        font-size: 4px;
+        line-height: 25px;
+    
+        color: #474645;
+    }
+    
+    .followings {
+        width: 151.19px;
+    
+        font-family: 'Noto Sans';
+        font-size: 4px;
+        line-height: 25px;
+    
+        color: #474645;
+    }
+}
